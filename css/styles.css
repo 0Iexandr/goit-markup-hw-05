@@ -113,6 +113,9 @@ h1, h2, h3, ul, p {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list a:hover,
@@ -121,9 +124,6 @@ h1, h2, h3, ul, p {
 .navigation-contact-list a:focus {
     color: var(--additional-bg-text-color);
     fill: var(--additional-bg-text-color);
-    transition-property: color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-contact-list {
@@ -142,6 +142,9 @@ h1, h2, h3, ul, p {
     letter-spacing: 0.02em;
     color: var(--additional-text-color);
     text-decoration: none;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-container {
@@ -346,6 +349,9 @@ h1, h2, h3, ul, p {
     line-height: 1.62;
     text-align: center;
     border: none;
+    transition-property: color, background, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-filter-list button:hover,
@@ -353,9 +359,6 @@ h1, h2, h3, ul, p {
     background: var(--additional-bg-text-color);
     color: var(--white-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-property: color, background, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-container {
@@ -381,14 +384,14 @@ img {
 .portfolio-container a {
     display: block;
     text-decoration: none;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-container a:focus, 
 .portfolio-container a:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description-container h2 {
@@ -477,6 +480,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card-svg-list li {
@@ -484,6 +490,9 @@ img {
     height: 44px;
     border-radius: 50%;
     box-shadow: none;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-card-svg-list a:hover,
@@ -492,9 +501,6 @@ img {
 .team-card-svg-list li:focus {
     background-color: var(--additional-bg-text-color);
     fill: var(--white-color);
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-customers-title {
@@ -526,15 +532,15 @@ img {
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-customers-list a:hover,
 .regular-customers-list a:focus {
     fill: var(--additional-bg-text-color);
     border-color: var(--additional-bg-text-color);
-    transition-property: border-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-title {
@@ -572,14 +578,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-list a:hover, 
 .footer-svg-list a:focus {
     background: var(--additional-bg-text-color);
-    transition-property: background;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -620,6 +626,9 @@ img {
     align-items: center;
     padding: 0;
     cursor: pointer;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
